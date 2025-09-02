@@ -1,1 +1,13 @@
-import Ecomm from "./Ecomm.jsx"; export default function App () { return <Ecomm/>; } E0F
+import Ecomm from "./ecomm.jsx";
+import "./App.css";
+
+function App() {
+
+  return (
+    <>
+      <Ecomm />
+    </>
+  )
+}
+
+export default App;
